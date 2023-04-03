@@ -1,4 +1,6 @@
-# CD_Semtech_Demo
+# CD_Semtech_Demo [obsolete]
+This repo has been replaced by:  https://github.com/ConnectedDevelopment/CD_LoRaMAC_Demo
+
 Connected Development sample demos of Semtech LoRa devices.
 
 1. PingPong -  This is a point-to-point example.  It runs on two Nordic nRF52840DK boards with Connected Development SX1262 LoRa shields.  One board sends out "PING" data packets and the other board responds with "PONG" packets.  Each side will display a log in its terminal window for each LoRa packet that is sent or received, including a packet counter.  Each receive log includes the packet counter, the signal strength (RSSI), and Signal-to-Noise Ratio (SNR).  LED1 will toggle each time a packet is received, and LED2 will toggle each time a packet is sent.
